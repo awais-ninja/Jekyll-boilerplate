@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Home",
+        "link": "/",
+        "icon": ""
+    },
+    {
+        "name": "About Us",
+        "link": "/about",
+        "icon": ""
+    },  
+    {
+        "name": "Read Blogs",
+        "link": "/blog",
+        "icon": ""
+    },
+    {
+        "name": "Hire Me",
+        "link": "/hire-me",
+        "icon": "",
+        "subNavigation": [
+            {
+                "name": "Contact Me",
+                "link": "/contact"
+            },
+            {
+                "name": "Github Profile",
+                "link": "/go-to-github.com"
+            }
+        ]
+    }
+]

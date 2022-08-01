@@ -1,0 +1,11 @@
+title: "New Site"
+author: "Shifa ur Rehman"
+description: "Some very naughty description"
+
+url: 
+baseurl: ""
+
+livereload: true
+
+sass:
+  sass_dir: assets/style

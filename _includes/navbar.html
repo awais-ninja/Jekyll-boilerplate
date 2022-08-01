@@ -1,0 +1,13 @@
+{% assign navigation = site.data.navigation %}
+<div class="container-fluid px-0 bg-info">
+    <div class="container d-flex align-items-center justify-content-between py-3">
+        <h3>Site Logo</h3>
+        <nav>
+            <ul class="mb-0 list-unstyled d-flex align-items-center" >
+                {% for item in navigation %}
+                <li class="me-2"><a href="{{ item.link }}" class="btn btn-sm btn-primary">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</div>
